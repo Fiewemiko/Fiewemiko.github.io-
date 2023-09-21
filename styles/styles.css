@@ -1,0 +1,154 @@
+
+
+.top_container{
+    background-color: #DEFCF9;
+    padding-top: 100px;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+hr{
+    border:dotted #CADEFC 6px;
+    border-bottom: none;
+    margin: 50px auto;
+    width: 4%;
+
+}
+
+h1 {
+font-size: 5.625rem;
+margin: 50px auto 0 auto;
+font-family: 'Montserrat', sans-serif;
+color: #CCA8E9;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight:normal;
+    color: #CCA8E9;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #CCA8E9;
+}
+
+#bottom_cloud {
+position: absolute;
+right:200px;
+top 50px;
+}
+
+#top_cloud {
+position: absolute;
+top: 50px;
+left: 100px;
+}
+
+.skill-row {
+    width: 50%
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.intro {
+width 30%;
+padding: 10px;
+margin: auto;
+line-height: 2;
+}
+
+.introduction{
+    width: 50%
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    }
+
+div {
+padding-left: 100px ;
+padding-right: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #40514E;
+}
+
+a:hover {
+    color: #CCA8E9;
+}
+
+
+.programming-image {
+    width:25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.Music-image {
+    max-width: 25%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    padding-right: 30px;
+}
+
+.contact-me{
+margin: 50px;
+}
+
+.my-photo{
+width: 25%;
+height: 25%;
+align:center;
+border-radius: 3%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #C3BEF0; /* Kolor tła przycisku */
+    color: #fff; /* Kolor tekstu */
+    border: none; /* Usunięcie obramowania */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-color: white;
+}
+
+.btn:hover {
+    background-color: #CCA8E9; /* Kolor tła przycisku po najechaniu myszką */
+    color: white;
+}
+
+.footer {
+    background-color: #DEFCF9;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    /* Style dla ekranów o szerokości do 768 pikseli */
+    .skill-row, .introduction {
+        width: 100%; /* Szerokość 100% dla mniejszych ekranów */
+    }
+    .programming-image, .Music-image {
+        float: none; /* Anulowanie ustawienia float dla mniejszych ekranów */
+        max-width: 100%;
+        margin-right: 0;
+    }
+}
